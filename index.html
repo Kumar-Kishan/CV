@@ -13,6 +13,12 @@
 			content="Emulating real sheets of paper in web documents (using HTML and CSS)"
 		/>
 		<title>Kishan Kumar</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
 		<link rel="stylesheet" type="text/css" href="css/sheets-of-paper-a4.css" />
 		<link rel="stylesheet" text="text/css" href="css/custom.css" />
 		<link
@@ -23,141 +29,375 @@
 	<body class="document">
 		<div class="page" contenteditable="true">
 			<div class="contact">
-				<div class="name">Kishan Kumar</div>
-				<div class="address">
-					<i class="fa fa-2x fa-map-marker"></i>Kathmandu,Nepal
-				</div>
-				<div class="website">
-					<i class="fa fa-2x fa-internet-explorer"></i>https://kishankumar.me
-				</div>
-				<div class="github">
-					<i class="fa fa-2x fa-github"></i> https://github.com/Kumar-Kishan
-				</div>
-				<div class="stackoverflow">
-					<i class="fa fa-2x fa-stack-overflow"></i
-					>https://stackoverflow.com/users/5561489/kishan-kumar
-				</div>
-				<div class="phone"><i class="fa fa-2x fa-phone"></i>9844218040</div>
-			</div>
-			<hr />
-			<div class="aboutme">
-				<p>
-					A engineer who likes to learn new things by trying to make and break
-					things.
-				</p>
-			</div>
-			<div class="eductations">
-				<div class="education">
-					<div class="duration">2013 Nov - 2017 Oct</div>
-					<div class="title">Bachelor In Computer Engineering</div>
-					<div class="special">First Division,Full Scholarship</div>
-				</div>
-			</div>
-			<div class="experiences">
-				<hr />
-				<div class="experience">
-					<div class="position">Full Stack Developer</div>
-					<div class="duration">2017 Nov - 2018 Oct</div>
-					<div class="works">
-						<div class="work">
-							<div class="projectname">OTrack</div>
-							<div class="special">
-								<p></p>
-							</div>
-							<div class="description">
-								An online realtime vehicle tracking system
-							</div>
-							<div class="responsibility">
-								Creating a scaffolding of project(MEVN stack) and guide the team
-								to cleaner code and DRY principles,while fixing major bugs.
-							</div>
+				<div class="name align-center"><u>Kishan Kumar</u></div>
+				<div class="row">
+					<div class="contact-group col">
+						<div class="address">
+							<i class="fa fa-map-marker"></i>Kathmandu,Nepal
 						</div>
-						<div class="work">
-							<div class="projectname">E-Ticketing</div>
-							<div class="description">
-								An online ticket booking platform for vendors
-							</div>
-							<div class="responsibility">
-								Creating the backend server and admin panel.Also a dynamic
-								realtime api for tickets synchronization for ticket sellers.
-							</div>
+						<div class="email">
+							<i class="fa fa-envelope"></i>kumar.kishan@outlook.com
 						</div>
-						<div class="work">
-							<div class="projectname">HOW App</div>
-							<div class="description">
-								A learning platform where educators post videos, and students
-								learn from it
-							</div>
-							<div class="responsibility">
-								Creating the entire backend server in nodejs and mongodb which
-								was hosted on aws
-							</div>
+						<div class="phone"><i class="fa fa-phone"></i>9844218040</div>
+					</div>
+					<div class="contact-group col text-right">
+						<div class="website">
+							<i class="fa fa-internet-explorer"></i>https://kishankumar.me
 						</div>
-						<div class="work">
-							<div class="projectname">G2C</div>
-							<div class="description">
-								A platform for government entities to provide services to citizens
-							</div>
-							<div class="responsibility">
-								Backend server in laravel,
-								And client side in VueJS
-							</div>
+						<div class="stackoverflow">
+							<i class="fa fa-stack-overflow"></i
+							>https://stackoverflow.com/users/5561489
+						</div>
+						<div class="github">
+							<i class="fa fa-github"></i> https://github.com/Kumar-Kishan
 						</div>
 					</div>
 				</div>
+			</div>
+			<hr />
+			<div class="aboutme align-center">
+				<p>Someone who like to write and <strike>repeat</strike> automate</p>
+			</div>
+			<!-- <div class="eductations align-center">
+				<div class="education">
+					<div class="duration">2013 Nov - 2017 Oct</div>
+					<div class="title">Bachelor In Computer Engineering</div>
+					<div class="special">First Division, Scholarship</div>
+				</div>
+			</div> -->
+			<div class="experiences">
 				<hr />
-				<div class="experience"></div>
+				<h5 class="align-center">Work Experiences</h5>
+				<hr />
+				<div class="experience">
+					<div class="company pull-right"><b>Chuchuro Firm</b></div>
+					<div class="position">
+						Sr. Full Stack Developer
+						<span class="duration">(2018 Sept - Now)</span>
+					</div>
+					<ul class="works">
+						<li>
+							Cloudscraper Exchnage
+							<span class="description">
+								(A real estate trading website)
+							</span>
+							<ul class="responsibility">
+								<li>
+									Create new dataroom(Frontend: VueJs, Backend: Phalcon PHP)
+								</li>
+								<li>
+									Write <b>migration scripts</b> from old dataroom to new
+									dataroom
+								</li>
+								<li>
+									Embed Dataroom to another pages using custom vue components
+								</li>
+								<li>
+									Custom bash automation scripts and cron job for scheduled
+									tasks
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<hr />
+				<div class="experience">
+					<div class="company pull-right"><b>Otonomis Pvt. Ltd.</b></div>
+					<div class="position">
+						Full Stack Developer
+						<span class="duration">(2017 Nov - 2018 Oct)</span>
+					</div>
+					<ul class="works">
+						<li>
+							oTrack
+							<span class="description">
+								(An online realtime vehicle tracking system)
+							</span>
+							<ul class="responsibility">
+								<li>
+									JVM based multi-threaded vehicle tracking server(handling more
+									than 8k concurrent requests with limited cpu)
+								</li>
+								<li>
+									Made multiple architectural decision in minimising the server
+									costs
+								</li>
+								<li>
+									Database Schema Design And Optimization
+								</li>
+								<li>
+									Create project backbone in NodeJs and VueJS
+								</li>
+								<li>
+									Code review and mentoring junior web devs
+								</li>
+								<li>
+									Created a generic CRUD using MEVN, and using vuex as client
+									store, with an custom made orm wrapper on top of it
+								</li>
+							</ul>
+						</li>
+						<li>
+							E-Ticketing
+							<span class="description">
+								(An online ticket booking platform for vendors)
+							</span>
+							<ul class="responsibility">
+								<li>
+									Crud realtime REST backend using MEVN stack
+								</li>
+								<li>
+									Admin Panel In using Vue and Bulma
+								</li>
+							</ul>
+						</li>
+						<li>
+							HOWApp
+							<span class="description">
+								(A learning platform where educators post videos, and students
+								learn from it)
+							</span>
+							<ul class="responsibility">
+								<li>
+									Entire REST Api for mobile devices
+								</li>
+								<li>
+									Deeplinking with native mobile apps
+								</li>
+								<li>
+									SEO For sharing purposes
+								</li>
+								<li>
+									Admin Panel in Vue and Bootstrap
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div class="skills">
-				<ol>
-					<li>expressjs</li>
-					<li>mongoosejs</li>
-					<li>vuejs</li>
-					<li>lodash</li>
-					<li>asyncjs</li>
-					<li>Heroku</li>
-					<li>AWS EB</li>
-					<li>Tensorflow</li>
-					<li>jQuery</li>
-					<li>Bootstrap</li>
-					<li>Bulma</li>
-					<li>MDBootstrap</li>
-				</ol>
-			</div>
-			<div class="projects">
-				<div class="project">
-					<div class="duration">3rd Sem</div>
-					<div class="title">Neighbours</div>
-					<div class="description">Adaptation of Conway's game of life to a simple CLI game</div>
-					<div class="responsibility">Creating the entire game in C++ using OOPs fundaments,with SOLID and DRY principles in mind</div>
-				</div>
-				<div class="project">
-					<div class="duration">5th Sem</div>
-					<div class="title">Shoot'Em All</div>
-					<div class="description">A 2D sideshooter game inspired from Asteroids</div>
-					<div class="responsibility">Creating the entire game in C/OpenGl using allegro5</div>
-				</div>
-				<div class="project">
-					<div class="duration">6th Sem</div>
-					<div class="title">E'Help</div>
-					<div class="description">An emergency help application useful for SOS</div>
-					<div class="responsibility">Creating the platform with ASP.NET MVC,Xamarin and SignalR</div>
-				</div>
-				<div class="project">
-					<div class="duration">7th Sem</div>
-					<div class="title">Jaani Rakhau</div>
-					<div class="description">General Hygeine app which can be accessible to people in rural area with visual and audio  help</div>
-					<div class="responsibility">Implement a data centric application,using app stored JSON as its datastore</div>
-				</div>
-				<div class="project">
-					<div class="duration">7th-8th Sem</div>
-					<div class="title">Allons-y</div>
-					<div class="description">Social Networking Website for travellers,where they can find content which are tailored for them</div>
-					<div class="responsibility">Create the Backend API. Cluster Users accoding to their behavious, Sentiment Analysis api based on Keras-Tensorflow for getting user's rationale on their replies to the post.And provide a place recommendation based on behaviour and 1.4 million data points collected from OSM datasets</div>
-				</div>
+			<div class="education">
+				<hr />
+				<h5 class="align-center">Education</h5>
+				<hr />
+					Bachelor in Computer Engineering
+					<br>
+					Himalaya College of Engineering(Thribhuwan University)
+				</ul>
 			</div>
 		</div>
 
+		<div class="page" contenteditable="true">
+			<div class="languages">
+				<hr />
+				<h5 class="text-center">
+					Languages
+				</h5>
+				<hr />
+				<div class="row">
+					<div class="col">
+						<ul>
+							<li>
+								Most Confident In
+								<ul class="text-small">
+									<li>Javascript</li>
+									<li>PHP</li>
+									<li>Java,Kotlin</li>
+									<li>C++</li>
+									<li>C</li>
+									<li>Bash Scripting</li>
+									<li>SQL</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col">
+						<ul>
+							<li>
+								Familiar with
+								<ul class="text-small">
+									<li>CLisp</li>
+									<li>F#</li>
+									<li>Python</li>
+									<li>C#</li>
+									<li>Go</li>
+									<li>Rust</li>
+									<li>Solidity</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="skills">
+				<hr />
+				<h5 class="align-center">
+					Tools
+				</h5>
+				<hr />
+				<div class="row">
+					<div class="col">
+						<ul>
+							<li>git</li>
+							<li>expressjs</li>
+							<li>mongoosejs</li>
+						</ul>
+					</div>
+					<div class="col">
+						<ul>
+							<li>three.js</li>
+							<li>asyncjs</li>
+							<li>Heroku/DigitalOcean</li>
+						</ul>
+					</div>
+					<div class="col">
+						<ul>
+							<li>Tensorflow</li>
+							<li>CMake</li>
+							<li>Allegro5</li>
+						</ul>
+					</div>
+					<div class="col">
+						<ul>
+							<li>Vue & Vuex</li>
+							<li>AWS Services</li>
+							<li>Docker/Kubernetes</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="projects">
+				<hr />
+				<h5 class="align-center">
+					Projects
+				</h5>
+				<hr />
+				<div class="project">
+					<div class="duration pull-right">
+						<b>
+							3rd Sem
+						</b>
+					</div>
+					<div class="title">
+						<i>
+							<b>
+								Neighbours
+							</b>
+						</i>
+					</div>
+					<i class="description">
+						Adaptation of Conway's game of life to a simple CLI game
+					</i>
+					<ul class="responsibility text-small">
+						<li>
+							Creating the entire game in C++ using OOPs fundaments,with SOLID
+							and DRY principles in mind
+						</li>
+					</ul>
+				</div>
+				<div class="project">
+					<div class="duration pull-right">
+						<b>
+							5th Sem
+						</b>
+					</div>
+					<div class="title">
+						<i>
+							<b>
+								Shoot'Em All
+							</b>
+						</i>
+					</div>
+					<i class="description">
+						A 2D sideshooter game inspired from Asteroids
+					</i>
+					<ul class="responsibility text-small">
+						<li>
+							Creating the entire game in C/OpenGl using allegro5
+						</li>
+					</ul>
+				</div>
+				<div class="project">
+					<div class="duration pull-right">
+						<b>
+							6th Sem
+						</b>
+					</div>
+					<div class="title">
+						<i>
+							<b>
+								E'Help
+							</b>
+						</i>
+					</div>
+					<i class="description">
+						An emergency help application useful for SOS
+					</i>
+					<ul class="responsibility text-small">
+						<li>
+							Creating the platform with ASP.NET MVC,Xamarin and SignalR
+						</li>
+					</ul>
+				</div>
+				<div class="project">
+					<div class="duration pull-right">
+						<b>
+							7th Sem
+						</b>
+					</div>
+					<div class="title">
+						<i>
+							<b>
+								Jaani Rakhau
+							</b>
+						</i>
+					</div>
+					<i class="description">
+						General Hygeine app which can be accessible to people in rural area
+						with visual and audio help
+					</i>
+					<ul class="responsibility text-small">
+						<li>
+							Implement a data centric application,using app stored JSON as its
+							datastore
+						</li>
+					</ul>
+				</div>
+				<div class="project">
+					<div class="duration pull-right">
+						<b>
+							7th-8th Sem
+						</b>
+					</div>
+					<div class="title">
+						<i>
+							<b>
+								Allons-y
+							</b>
+						</i>
+					</div>
+					<i class="description">
+						Social Networking Website for travellers,where they can find content
+						which are tailored for them
+					</i>
+					<ul class="responsibility text-small">
+						<li>
+							Create the Backend API.
+						</li>
+						<li>
+							Cluster Users accoding to their behavious,
+						</li>
+						<li>
+							Sentiment Analysis api based on Keras-Tensorflow for getting
+							user's rationale on their replies to the post.
+						</li>
+						<li>
+							A place recommendation based on behaviour and 1.4 million data
+							points collected from OSM datasets
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 		<script type="text/javascript">
 			//window.print();
 		</script>
