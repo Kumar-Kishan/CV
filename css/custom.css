@@ -19,7 +19,7 @@ ol li {
 } */
 
 body {
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 .description {
@@ -32,4 +32,20 @@ body {
 
 i.fa {
 	margin: 10px;
+}
+
+h5{
+	font-weight: bold;
+	font-size: 1.25em;
+	font-family: 'Roboto Mono', monospace;
+}
+
+hr{
+	/* border: none; */
+    height: 1px;
+    /* Set the hr color */
+	/* color: #cccccc;  */
+	/* old IE */
+	background-color: #555555; 
+	/* Modern Browsers */
 }
