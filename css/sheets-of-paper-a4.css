@@ -10,7 +10,7 @@
 	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
 
 	/* Reflect the paper width in the screen rendering (must match size from @page rule) */
-	width: 21cm;
+	width: 22cm;
 	/* Reflect the paper height in the screen rendering (must match size from @page rule) */
 	min-height: 29.7cm;
 
