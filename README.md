@@ -42,3 +42,18 @@ Word processor in your browser using HTML and CSS (e.g. for invoices, legal noti
 ## License
 
 This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+
+1. Someone who like to write and repeat automate >> change like to likes(i think that should be plural) ----> Done
+2. Embed Dataroom to another pages using custom vue components >> another “page” ki pages nai ho?(i am not sure about the technical term) -->
+3. Code review and mentoring junior web devs
+4. Admin Panel In using Vue and Bulma >> IN kaiko capital bhai?
+5. Creating the entire game in C++ using OOPs fundamentals, with SOLID and DRY principles in mind >> OOP fundamentals seem good
+6. Cluster Users according to their behaviours >> behaviour is singular
+
+1. Done
+2. I think pages nai ho
+3. Bujhina whats the issue here
+4. Because ham toh idiot hai na.. fixed this one
+5. OOPs nai ho. Not OOP
+6. Done
