@@ -21,7 +21,7 @@
 						"Creating new features timely from design and based on product requirements(ReactJS/Java) for fareye.co",
 						"Reviewing code and mentoring interns",
 						"Handling deployment",
-						"Rewrote multiple features for new revamped ui"
+						"Rewriting multiple features for new revamped ui"
 					]
 				}
 			]
@@ -98,7 +98,7 @@
 						{
 							"name": "HOW App",
 							"responsibility": [
-								"Created entire backend api in rest(NodeJs/MongoDB)",
+								"Created entire backend api in REST(NodeJs/MongoDB)",
 								"Created admin panel in vue and bootstrap"
 							]
 						}
@@ -194,7 +194,7 @@
 			"title": "Jaani Rakhau",
 			"description": "Hygeine app accessible to people of rural area",
 			"responsibility": [
-				"Implement a data centric application,using app stored JSON as its datastore"
+				"Implemented a data centric application,using app stored JSON as its datastore"
 			]
 		},
 		{

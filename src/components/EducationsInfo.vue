@@ -1,7 +1,7 @@
 <template>
 	<div class="educations-wrapper">
 		<div class="col-12 text-center fw-bold">
-			Educations
+			Education
 		</div>
 		<div
 			class="education"
