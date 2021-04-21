@@ -5,9 +5,9 @@
 	font-size: 2em;
 }
 .page {
-	padding-left: 0.5cm;
-	padding-top: 0.5cm;
-	padding-right: 0.5cm;
+	padding-left: 0cm;
+	padding-top: 0cm;
+	padding-right: 0cm;
 }
 
 .align-center {
@@ -30,22 +30,30 @@ body {
 	font-size: 0.9em !important;
 }
 
-i.fa {
+/* i.fa {
 	margin: 10px;
-}
+} */
 
-h5{
+h5 {
 	font-weight: bold;
 	font-size: 1.25em;
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
 }
 
-hr{
+hr {
 	/* border: none; */
-    height: 1px;
-    /* Set the hr color */
+	height: 1px;
+	/* Set the hr color */
 	/* color: #cccccc;  */
 	/* old IE */
-	background-color: #555555; 
+	background-color: #555555;
 	/* Modern Browsers */
+}
+
+p + p {
+	margin-top: 0cm;
+}
+
+.fs-7 {
+	font-size: 0.8rem !important;
 }

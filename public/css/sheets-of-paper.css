@@ -4,13 +4,15 @@
  * Licensed under the MIT License (https://opensource.org/licenses/MIT)
  */
 
-html, body {
+html,
+body {
 	/* Reset the document's margin values */
 	margin: 0;
 	/* Reset the document's padding values */
 	padding: 0;
 	/* Use the platform's native font as the default */
-	font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;
+	font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI",
+		"Helvetica Neue", sans-serif;
 	/* Define a reasonable base font size */
 	font-size: 12pt;
 
@@ -47,7 +49,12 @@ h1 {
 	page-break-before: always;
 }
 /* For all headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	/* Avoid page breaks immediately */
 	page-break-after: avoid;
 }
@@ -83,7 +90,8 @@ table {
 }
 /* When the document is actually printed */
 @media print {
-	html, body {
+	html,
+	body {
 		/* Reset the document's background color */
 		background-color: #fff;
 	}
