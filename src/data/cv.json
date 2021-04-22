@@ -6,7 +6,7 @@
 		"stackoverflow": "stackvoverflow.com/users/5561489",
 		"github": "github.com/Kumar-Kishan"
 	},
-	"tagline": "Someone who likes to write and automate",
+	"tagline": "Someone who likes to code and automate",
 	"experiences": [
 		{
 			"company": "Fareye",
@@ -21,7 +21,7 @@
 						"Creating new features timely from design and based on product requirements(ReactJS/Java) for fareye.co",
 						"Reviewing code and mentoring interns",
 						"Handling deployment",
-						"Rewriting multiple features for new revamped ui"
+						"Rewriting multiple features for new revamped UI"
 					]
 				}
 			]
@@ -85,8 +85,8 @@
 							"responsibility": [
 								"Created a cost optimized jvm based multi-threadeed vehicle tracking server",
 								"Database schema design and optimization",
-								"Reviewing code and mentoring junior web devs",
-								"Creating a generic CRUD using MEVN"
+								"Reviewed code and mentored junior web devs",
+								"Created a generic CRUD using MEVN"
 							]
 						},
 						{

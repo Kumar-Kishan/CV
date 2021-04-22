@@ -7,7 +7,7 @@
 					:contact="information.contact"
 				></user-info>
 				<hr />
-				<p class="fs-5 text-center" v-html="information.tagline"></p>
+				<p class="fs-5 text-center pt-1 pb-1" v-html="information.tagline"></p>
 				<hr />
 				<educations-info :educations="information.educations">
 				</educations-info>

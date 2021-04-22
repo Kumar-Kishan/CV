@@ -1,5 +1,5 @@
 <template>
-	<div class="skills-info-wrapper">
+	<div class="skills-info-wrapper pt-2 pb-2">
 		<div class="col-12 text-center fw-bold">
 			Languages
 		</div>
@@ -17,7 +17,7 @@
 			</div>
 		</div> -->
 		<div class="skills row">
-			<div class="col-12 fs-6 ms-4 fw-bold">
+			<div class="col-12 fs-6 ms-4 fw-bold pt-2">
 				Confident In
 			</div>
 			<div
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div class="skills row">
-			<div class="col-12 fs-6 mt-4 ms-4 fw-bold">
+			<div class="col-12 fs-6 mt-4 ms-4 fw-bold pt-2">
 				Familiar With
 			</div>
 			<div
@@ -42,11 +42,15 @@
 		</div>
 
 		<hr />
-		<div class="skills row">
+		<div class="skills row pt-2">
 			<div class="col-12 text-center fw-bold">
 				Skills
 			</div>
-			<div class="col-6 fs-6 text-center" v-for="skill in skills" :key="skill">
+			<div
+				class="col-6 fs-6 text-center pt-1 pb-1"
+				v-for="skill in skills"
+				:key="skill"
+			>
 				{{ skill }}
 			</div>
 		</div>

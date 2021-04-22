@@ -7,15 +7,15 @@
 			<i class="fa fa-github"></i>
 			{{ contact.github }}
 		</p>
-		<p class="fs-6">
+		<p class="fs-6 pt-1">
 			<i class="fa fa-envelope"></i>
 			{{ contact.email }}
 		</p>
-		<p class="fs-6">
+		<p class="fs-6 pt-1">
 			<i class="fa fa-stack-overflow"></i>
 			{{ contact.stackoverflow }}
 		</p>
-		<p class="fs-6">
+		<p class="fs-6 pt-1 pb-1">
 			<i class="fa fa-link"></i>
 			{{ contact.website }}
 		</p>
@@ -37,5 +37,6 @@ export default {
 	/* background: #00ff00; */
 	padding-left: 0.3cm;
 	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
 }
 </style>
