@@ -18,7 +18,8 @@
 						"to": "2021 Aug"
 					},
 					"responsibility": [
-						"Creating new features timely from design and based on product requirements(ReactJS/Java) for fareye.co",
+						"Creating new features timely from design and based on product requirements(ReactJS/SpringBoot) for fareye.co",
+						"Make new ui components in ant-d as per requirement",
 						"Reviewing code and mentoring interns",
 						"Handling deployment",
 						"Rewriting multiple features for new revamped UI"
@@ -63,7 +64,7 @@
 							"name": "Docvault",
 							"responsibility": [
 								"Helped in development of front end in VueJs and Backend in Python",
-								"Created a cutom pdf-viewer for data population"
+								"Created a custom pdf-viewer for data population"
 							]
 						}
 					]
@@ -83,7 +84,7 @@
 						{
 							"name": "oTrack",
 							"responsibility": [
-								"Created a cost optimized jvm based multi-threadeed vehicle tracking server",
+								"Created a cost optimized jvm based multi-threaded vehicle tracking server",
 								"Database schema design and optimization",
 								"Reviewed code and mentored junior web devs",
 								"Created a generic CRUD using MEVN"
@@ -91,9 +92,7 @@
 						},
 						{
 							"name": "eTicketing",
-							"responsibility": [
-								"Created admin panel using Vue/Bulma"
-							]
+							"responsibility": ["Created admin panel using Vue/Bulma"]
 						},
 						{
 							"name": "HOW App",
@@ -191,6 +190,7 @@
 			]
 		},
 		{
+			"hide": true,
 			"title": "Jaani Rakhau",
 			"description": "Hygeine app accessible to people of rural area",
 			"responsibility": [
@@ -206,11 +206,10 @@
 			]
 		},
 		{
+			"hide": true,
 			"title": "Shoot'Em All",
 			"description": "A 2D side-shooter game inspired by Asteroids",
-			"responsibility": [
-				"Created the entire game in C/OpenGL using allegro5"
-			]
+			"responsibility": ["Created the entire game in C/OpenGL using allegro5"]
 		},
 		{
 			"hide": true,
