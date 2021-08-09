@@ -1,15 +1,18 @@
 <template>
-	<div class="experiences-info-wrapper">
+	<div class="experiences-info-wrapper mt-4">
 		<div class="row">
-			<p class="fs-2 ms-4 me-4 fs-italic underline">Experiences</p>
+			<p class="fs-1 mt-2 fw-bold ms-4 me-4 text-capitalize">
+				Work Experience
+			</p>
+			<hr class="ms-4" style="width: 92% !important;margin: 0;" />
 			<div
-				class="experience"
+				class="experience ms-3"
 				v-for="experience in experiences"
 				:key="experience.company"
 			>
-				<div class="company pull-right me-4">
-					<p class="fs-5">
-						<i>{{ experience.company }}</i>
+				<div class="company ms-2">
+					<p class="fs-5 fw-bold">
+						{{ experience.company }}
 					</p>
 				</div>
 				<div
@@ -17,7 +20,7 @@
 					v-for="role in experience.roles"
 					:key="role.role"
 				>
-					<p class="fs-6 fw-bold">
+					<p class="fs-6 fw-bold" style="font-weight: 350">
 						{{ role.role }} ({{ role.timeframe.from }} -
 						{{ role.timeframe.to }})
 					</p>
@@ -29,18 +32,18 @@
 							</li>
 						</ul>
 					</div>
-					<div
-						class="project-wrapper"
-						style="margin-top: 4px;"
-						v-if="role.projects"
-					>
-						<div v-for="project in role.projects" :key="project.name">
+					<div class="project-wrapper" v-if="role.projects">
+						<div
+							class="project"
+							v-for="project in role.projects"
+							:key="project.name"
+						>
 							<p class="fs-6 fst-italic text-decoration-underline">
 								{{ project.name }}
 							</p>
 							<ul>
 								<li
-									class="fs-6"
+									class="fs-6 responsibility"
 									v-for="resp in project.responsibility"
 									:key="resp"
 								>
@@ -64,4 +67,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.project {
+	margin-bottom: -10px;
+}
+</style>

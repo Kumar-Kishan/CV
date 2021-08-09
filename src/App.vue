@@ -7,7 +7,10 @@
 					:contact="information.contact"
 				></user-info>
 				<hr />
-				<p class="fs-5 text-center pt-1 pb-1" v-html="information.tagline"></p>
+				<p
+					class="fs-5 text-center pt-1 pb-1 ms-3"
+					v-html="information.tagline"
+				></p>
 				<hr />
 				<educations-info :educations="information.educations">
 				</educations-info>
@@ -67,7 +70,7 @@ export default {
 }
 
 .side-info {
-	background: linear-gradient(to right, #00ffff 0%, #ccffff 100%);
+	background: linear-gradient(to right, #3fb984 0%, #ffffff 100%);
 	height: 31cm;
 	min-height: 31cm;
 }

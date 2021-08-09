@@ -1,5 +1,5 @@
 <template>
-	<div class="user-info-wrapper text-break text-wrap">
+	<div class="user-info-wrapper text-break text-wrap ms-2">
 		<p class="fw-bold fs-1">
 			{{ name }}
 		</p>

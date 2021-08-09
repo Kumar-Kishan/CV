@@ -18,11 +18,11 @@
 						"to": "2021 Aug"
 					},
 					"responsibility": [
-						"Creating new features timely from design and based on product requirements(ReactJS/SpringBoot) for fareye.co",
-						"Make new ui components in ant-d as per requirement",
-						"Reviewing code and mentoring interns",
-						"Handling deployment",
-						"Rewriting multiple features for new revamped UI"
+						"Created new features timely from design based on product requirements(ReactJS/SpringBoot) for fareye.co",
+						"Made new ui components in ant-d as per requirement",
+						"Reviewed code and mentored interns",
+						"Handled deployment",
+						"Rewritten multiple features for new revamped UI"
 					]
 				}
 			]
@@ -31,7 +31,7 @@
 			"company": "HCOE",
 			"roles": [
 				{
-					"role": "Instructor(Machine Learning)",
+					"role": "Machine Learning Instructor",
 					"timeframe": {
 						"from": "2018 Dec",
 						"to": "2019 Aug"
@@ -63,7 +63,7 @@
 						{
 							"name": "Docvault",
 							"responsibility": [
-								"Helped in development of front end in VueJs and Backend in Python",
+								"Created front end in VueJs and Backend in Python",
 								"Created a custom pdf-viewer for data population"
 							]
 						}
@@ -85,7 +85,7 @@
 							"name": "oTrack",
 							"responsibility": [
 								"Created a cost optimized jvm based multi-threaded vehicle tracking server",
-								"Database schema design and optimization",
+								"Designed and optimized database schema",
 								"Reviewed code and mentored junior web devs",
 								"Created a generic CRUD using MEVN"
 							]
@@ -98,7 +98,7 @@
 							"name": "HOW App",
 							"responsibility": [
 								"Created entire backend api in REST(NodeJs/MongoDB)",
-								"Created admin panel in vue and bootstrap"
+								"Created admin panel in Vue and Bootstrap"
 							]
 						}
 					]
@@ -185,8 +185,8 @@
 			"description": "Social Networking Website for travellers",
 			"responsibility": [
 				"Created the backend API",
-				"Clustering user based on their behaviour and analyzing user's reviews sentiment",
-				"Location recommendation for visit based on user behaviour"
+				"Clustered user based on their behaviour and analyzing user's reviews sentiment",
+				"Created location recommendation for visit based on user behaviour"
 			]
 		},
 		{
