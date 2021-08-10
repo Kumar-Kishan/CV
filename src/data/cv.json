@@ -14,8 +14,8 @@
 				{
 					"role": "SDE2",
 					"timeframe": {
-						"from": "2020 Apr",
-						"to": "2021 Aug"
+						"from": "Apr 2020",
+						"to": "Aug 2021"
 					},
 					"responsibility": [
 						"Created new features timely from design based on product requirements(ReactJS/SpringBoot) for fareye.co",
@@ -33,8 +33,8 @@
 				{
 					"role": "Machine Learning Instructor",
 					"timeframe": {
-						"from": "2018 Dec",
-						"to": "2019 Aug"
+						"from": "Dec 2018",
+						"to": "Aug 2019"
 					},
 					"responsibility": [
 						"Taught ML using python and tensorflow while building a project"
@@ -48,8 +48,8 @@
 				{
 					"role": "Web Developer",
 					"timeframe": {
-						"from": "2018 Nov",
-						"to": "2019 Nov"
+						"from": "Nov 2018",
+						"to": "Nov 2019"
 					},
 					"projects": [
 						{
@@ -77,8 +77,8 @@
 				{
 					"role": "Full Stack Developer",
 					"timeframe": {
-						"from": "2017 Nov",
-						"to": "2018 Oct"
+						"from": "Nov 2017",
+						"to": "Oct 2018"
 					},
 					"projects": [
 						{
