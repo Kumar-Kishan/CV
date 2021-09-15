@@ -1,0 +1,223 @@
+{
+	"name": "Kishan Kumar",
+	"contact": {
+		"email": "kumar.kishan@outlook.com",
+		"website": "https://kishankumar.me",
+		"stackoverflow": "stackvoverflow.com/users/5561489",
+		"github": "github.com/Kumar-Kishan"
+	},
+	"tagline": "Someone who likes to code and automate",
+	"experiences": [
+		{
+			"company": "Fareye",
+			"roles": [
+				{
+					"role": "SDE2",
+					"timeframe": {
+						"from": "Apr 2020",
+						"to": "Aug 2021"
+					},
+					"responsibility": [
+						"Created new features timely from design based on product requirements(ReactJS/SpringBoot) for fareye.co",
+						"Made new ui components in ant-d as per requirement",
+						"Reviewed code and mentored interns",
+						"Handled deployment",
+						"Rewritten multiple features for new revamped UI"
+					]
+				}
+			]
+		},
+		{
+			"company": "HCOE",
+			"roles": [
+				{
+					"role": "Machine Learning Instructor",
+					"timeframe": {
+						"from": "Dec 2018",
+						"to": "Aug 2019"
+					},
+					"responsibility": [
+						"Taught ML using python and tensorflow while building a project"
+					]
+				}
+			]
+		},
+		{
+			"company": "Chuchuro Firm",
+			"roles": [
+				{
+					"role": "Web Developer",
+					"timeframe": {
+						"from": "Nov 2018",
+						"to": "Nov 2019"
+					},
+					"projects": [
+						{
+							"name": "Cloudscraper Exchange",
+							"responsibility": [
+								"Created entirely new dataroom(VueJs/Phalcon PHP/Python)",
+								"Wrote migration scripts for the new dataroom",
+								"Created bash automation scripts and cron jobs for scheduled tasks"
+							]
+						},
+						{
+							"name": "Docvault",
+							"responsibility": [
+								"Created front end in VueJs and Backend in Python",
+								"Created a custom pdf-viewer for data population"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "Otonomis Pvt. Ltd.",
+			"roles": [
+				{
+					"role": "Full Stack Developer",
+					"timeframe": {
+						"from": "Nov 2017",
+						"to": "Oct 2018"
+					},
+					"projects": [
+						{
+							"name": "oTrack",
+							"responsibility": [
+								"Created a cost optimized jvm based multi-threaded vehicle tracking server",
+								"Designed and optimized database schema",
+								"Reviewed code and mentored junior web devs",
+								"Created a generic CRUD using MEVN"
+							]
+						},
+						{
+							"name": "eTicketing",
+							"responsibility": ["Created admin panel using Vue/Bulma"]
+						},
+						{
+							"name": "HOW App",
+							"responsibility": [
+								"Created entire backend api in REST(NodeJs/MongoDB)",
+								"Created admin panel in Vue and Bootstrap"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"educations": [
+		{
+			"specialization": "Bachelor in Computer Engineering",
+			"college": "Himalaya College of Engineering",
+			"university": "Tribhuwan University"
+		}
+	],
+	"languages": [
+		{
+			"name": "Java",
+			"confidence": 8
+		},
+		{
+			"name": "Python",
+			"confidence": 6
+		},
+		{
+			"name": "C++",
+			"confidence": 8
+		},
+		{
+			"name": "C",
+			"confidence": 8
+		},
+		{
+			"name": "Javascript",
+			"confidence": 8
+		},
+		{
+			"name": "CLisp",
+			"confidence": 6
+		},
+		{
+			"name": "F#",
+			"confidence": 4
+		},
+		{
+			"name": "C#",
+			"confidence": 5
+		},
+		{
+			"name": "Bash Scripting",
+			"confidence": 5
+		},
+		{
+			"name": "Solidity",
+			"confidence": 4
+		},
+		{
+			"name": "Kotlin",
+			"confidence": 7
+		},
+		{
+			"name": "PHP",
+			"confidence": 8
+		}
+	],
+	"skills": [
+		"git",
+		"expressjs",
+		"mongoosejs",
+		"ReactJS",
+		"Tensorflow",
+		"CMake",
+		"Keras",
+		"VueJS",
+		"AWS",
+		"Docker",
+		"Kong",
+		"Ansible",
+		"SpringBoot",
+		"Allegro5"
+	],
+	"projects": [
+		{
+			"title": "Allons-y",
+			"description": "Social Networking Website for travellers",
+			"responsibility": [
+				"Created the backend API",
+				"Clustered user based on their behaviour and analyzing user's reviews sentiment",
+				"Created location recommendation for visit based on user behaviour"
+			]
+		},
+		{
+			"hide": true,
+			"title": "Jaani Rakhau",
+			"description": "Hygeine app accessible to people of rural area",
+			"responsibility": [
+				"Implemented a data centric application,using app stored JSON as its datastore"
+			]
+		},
+		{
+			"hide": true,
+			"title": "E-Help",
+			"description": "An emergency help application useful for SOS",
+			"responsibility": [
+				"Created the platform with ASP.NET MVC, Xamarin and SignalR"
+			]
+		},
+		{
+			"hide": true,
+			"title": "Shoot'Em All",
+			"description": "A 2D side-shooter game inspired by Asteroids",
+			"responsibility": ["Created the entire game in C/OpenGL using allegro5"]
+		},
+		{
+			"hide": true,
+			"title": "Neighbours",
+			"description": "Adaptation of Conway's game of life to a simple CLI game",
+			"responsibility": [
+				"Creating the entire game in C++ using OOPs fundamentals,with SOLID and DRY principles in mind"
+			]
+		}
+	]
+}

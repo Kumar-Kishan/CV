@@ -44,7 +44,7 @@
 		<hr />
 		<div class="skills row pt-2">
 			<div class="col-12 text-center fw-bold">
-				Skills
+				Technologies
 			</div>
 			<div
 				class="col-6 fs-6 text-center pt-1 pb-1"
@@ -71,7 +71,11 @@ export default {
 		familiarLanguages: []
 	}),
 	mounted() {
-		this.sortedLanguages = _.orderBy(this.languages, ["confidence"], ["desc"]);
+		this.sortedLanguages = _.orderBy(
+			this.languages,
+			["confidence", "name"],
+			["desc"]
+		);
 		this.confidentLanguages = _.filter(
 			this.sortedLanguages,
 			language => language.confidence > 6

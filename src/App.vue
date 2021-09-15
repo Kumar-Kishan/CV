@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import information from "./data/cv.json";
+import information from "./data/fullstack.json";
 import UserInfo from "./components/UserInfo";
 import SkillsInfo from "./components/SkillsInfo";
 import ExperiencesInfo from "./components/ExperiencesInfo";
@@ -70,8 +70,9 @@ export default {
 }
 
 .side-info {
-	background: linear-gradient(to right, #3fb984 0%, #ffffff 100%);
+	/* background: linear-gradient(to right, #3fb984 0%, #ffffff 100%); */
 	height: 31cm;
 	min-height: 31cm;
+	border-right: solid #ccc 1px;
 }
 </style>
