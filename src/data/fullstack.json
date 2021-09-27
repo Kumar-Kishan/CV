@@ -19,7 +19,7 @@
 					},
 					"responsibility": [
 						"Created new features timely from design based on product requirements(ReactJS/SpringBoot) for fareye.co",
-						"Made new ui components in ant-d as per requirement",
+						"Made new UI components in ant-d as per requirement",
 						"Reviewed code and mentored interns",
 						"Handled deployment",
 						"Rewritten multiple features for new revamped UI"
@@ -167,7 +167,8 @@
 			"title": "Allons-y",
 			"description": "Social Networking Website for travellers",
 			"responsibility": [
-				"Created the backend API",
+				"Created the backend API in Laravel",
+				"Created the frontend client in VueJs",
 				"Clustered user based on their behaviour and analyzing user's reviews sentiment",
 				"Created location recommendation for visit based on user behaviour"
 			]
