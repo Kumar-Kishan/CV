@@ -1,8 +1,9 @@
 <template>
-	<div class="skills-info-wrapper pt-2 pb-2">
+	<div class="skills-info-wrapper">
 		<div class="col-12 text-center fw-bold">
 			Languages
 		</div>
+		<hr />
 		<!-- <div v-for="language in sortedLanguages" :key="language.name">
 			<p class="fs-4 text-center">{{ language.name }}</p>
 			<div class="progress mx-4" style="height: 5px;">
@@ -21,7 +22,7 @@
 				Confident In
 			</div>
 			<div
-				class="col-6 fs-6 mt-2 text-center"
+				class="col-4 fs-6 mt-2 text-center"
 				v-for="language in confidentLanguages"
 				:key="language.name"
 			>
@@ -33,7 +34,7 @@
 				Familiar With
 			</div>
 			<div
-				class="col-6 fs-6 mt-2 text-center"
+				class="col-4 fs-6 mt-2 text-center"
 				v-for="language in familiarLanguages"
 				:key="language.name"
 			>
@@ -46,8 +47,10 @@
 			<div class="col-12 text-center fw-bold">
 				Technologies
 			</div>
+			<hr class="ms-2" style="width: 98% !important;" />
+
 			<div
-				class="col-6 fs-6 text-center pt-1 pb-1"
+				class="col-2 fs-6 text-center pt-1 pb-1"
 				v-for="skill in skills"
 				:key="skill"
 			>

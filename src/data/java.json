@@ -28,6 +28,21 @@
 			]
 		},
 		{
+			"company": "HCOE",
+			"roles": [
+				{
+					"role": "Machine Learning Instructor",
+					"timeframe": {
+						"from": "Dec 2018",
+						"to": "Aug 2019"
+					},
+					"responsibility": [
+						"Taught ML using python and tensorflow while building a project"
+					]
+				}
+			]
+		},
+		{
 			"company": "Chuchuro Firm",
 			"roles": [
 				{
@@ -57,21 +72,6 @@
 			]
 		},
 		{
-			"company": "HCOE",
-			"roles": [
-				{
-					"role": "Machine Learning Instructor",
-					"timeframe": {
-						"from": "Dec 2018",
-						"to": "Aug 2019"
-					},
-					"responsibility": [
-						"Taught ML using python and tensorflow while building a project"
-					]
-				}
-			]
-		},
-		{
 			"company": "Otonomis Pvt. Ltd.",
 			"roles": [
 				{
@@ -84,7 +84,7 @@
 						{
 							"name": "oTrack",
 							"responsibility": [
-								"Created a cost optimized jvm based multi-threaded vehicle tracking server",
+								"Created a cost optimized JAVA based multi-threaded vehicle tracking server capable of handling concurrent requests",
 								"Designed and optimized database schema",
 								"Reviewed code and mentored junior web devs",
 								"Created a generic CRUD using MEVN"
@@ -99,8 +99,8 @@
 						{
 							"name": "HOW App",
 							"responsibility": [
-								"Created entire backend api in REST(NodeJs/MongoDB)",
-								"Created admin panel in Vue and Bootstrap"
+								"Created the initial app in Android(JAVA)",
+								"Created entire backend api in REST(NodeJs/MongoDB) and admin panel in Vue/Bulma"
 							]
 						}
 					]
@@ -112,10 +112,6 @@
 		{
 			"specialization": "Bachelor in Computer Engineering",
 			"college": "Himalaya College of Engineering",
-			"timeframe": {
-				"from": "2013",
-				"to": "2017"
-			},
 			"university": "Tribhuwan University"
 		}
 	],
@@ -169,6 +165,16 @@
 	],
 	"projects": [
 		{
+			"title": "loksewaguide.com (Jan 2015- Oct 2017)",
+			"description": "Loksewa preparation website and android app",
+			"responsibility": [
+				"Maintained and added feature to existing android App(JAVA)",
+				"Added payment gateway integration",
+				"Made a quiz app in Android(JAVA)"
+			]
+		},
+		{
+			"hide": true,
 			"title": "Allons-y",
 			"description": "Social Networking Website for travellers",
 			"responsibility": [
@@ -179,6 +185,7 @@
 			]
 		},
 		{
+			"hide": true,
 			"title": "Jaani Rakhau",
 			"description": "Hygeine app accessible to people of rural area",
 			"responsibility": [
@@ -186,6 +193,7 @@
 			]
 		},
 		{
+			"hide": true,
 			"title": "E-Help",
 			"description": "An emergency help application useful for SOS",
 			"responsibility": [
@@ -193,6 +201,7 @@
 			]
 		},
 		{
+			"hide": true,
 			"title": "Shoot'Em All",
 			"description": "A 2D side-shooter game inspired by Asteroids",
 			"responsibility": [
@@ -200,6 +209,7 @@
 			]
 		},
 		{
+			"hide": true,
 			"title": "Neighbours",
 			"description": "Adaptation of Conway's game of life to a simple CLI game",
 			"responsibility": [

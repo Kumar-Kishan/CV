@@ -92,7 +92,9 @@
 						},
 						{
 							"name": "eTicketing",
-							"responsibility": ["Created admin panel using Vue/Bulma"]
+							"responsibility": [
+								"Created admin panel using Vue/Bulma"
+							]
 						},
 						{
 							"name": "HOW App",
@@ -110,6 +112,10 @@
 		{
 			"specialization": "Bachelor in Computer Engineering",
 			"college": "Himalaya College of Engineering",
+			"timeframe": {
+				"from": "2013",
+				"to": "2017"
+			},
 			"university": "Tribhuwan University"
 		}
 	],
@@ -120,7 +126,7 @@
 		},
 		{
 			"name": "Python",
-			"confidence": 6
+			"confidence": 7
 		},
 		{
 			"name": "C++",
@@ -156,7 +162,7 @@
 		},
 		{
 			"name": "Kotlin",
-			"confidence": 7
+			"confidence": 6
 		},
 		{
 			"name": "PHP",
@@ -177,7 +183,11 @@
 		"Kong",
 		"Ansible",
 		"SpringBoot",
-		"Allegro5"
+		"Allegro5",
+		"socket.io",
+		"Redis",
+		"Pandas",
+		"NestJS"
 	],
 	"projects": [
 		{
@@ -190,7 +200,6 @@
 			]
 		},
 		{
-			"hide": true,
 			"title": "Jaani Rakhau",
 			"description": "Hygeine app accessible to people of rural area",
 			"responsibility": [
@@ -198,7 +207,6 @@
 			]
 		},
 		{
-			"hide": true,
 			"title": "E-Help",
 			"description": "An emergency help application useful for SOS",
 			"responsibility": [
@@ -206,13 +214,13 @@
 			]
 		},
 		{
-			"hide": true,
 			"title": "Shoot'Em All",
 			"description": "A 2D side-shooter game inspired by Asteroids",
-			"responsibility": ["Created the entire game in C/OpenGL using allegro5"]
+			"responsibility": [
+				"Created the entire game in C/OpenGL using allegro5"
+			]
 		},
 		{
-			"hide": true,
 			"title": "Neighbours",
 			"description": "Adaptation of Conway's game of life to a simple CLI game",
 			"responsibility": [

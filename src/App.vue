@@ -1,29 +1,32 @@
 <template>
 	<div id="app">
 		<div class="page row page-wrapper">
-			<div class="col-4 side-info">
+			<div class="col-12">
 				<user-info
 					:name="information.name"
 					:contact="information.contact"
 				></user-info>
-				<hr />
-				<p
-					class="fs-5 text-center pt-1 pb-1 ms-3"
-					v-html="information.tagline"
-				></p>
-				<hr />
+				<hr style="margin-top: 0; margin-bottom: 0;" />
 				<educations-info :educations="information.educations">
 				</educations-info>
 				<hr />
+				<!-- <p class="fs-5 text-center" v-html="information.tagline"></p> -->
+				<!-- <hr /> -->
+				<!--
+				<hr />
+				 -->
+				<experiences-info
+					:experiences="information.experiences"
+				></experiences-info>
+			</div>
+		</div>
+		<div class="page row page-wrapper">
+			<div class="col-12 pt-4">
 				<skills-info
 					:languages="information.languages"
 					:skills="information.skills"
 				></skills-info>
-			</div>
-			<div class="col-8 main-info">
-				<experiences-info
-					:experiences="information.experiences"
-				></experiences-info>
+				<hr />
 				<projects-info :projects="information.projects"> </projects-info>
 			</div>
 		</div>
@@ -31,7 +34,7 @@
 </template>
 
 <script>
-import information from "./data/fullstack.json";
+import information from "./data/main.json";
 import UserInfo from "./components/UserInfo";
 import SkillsInfo from "./components/SkillsInfo";
 import ExperiencesInfo from "./components/ExperiencesInfo";
@@ -71,8 +74,6 @@ export default {
 
 .side-info {
 	/* background: linear-gradient(to right, #3fb984 0%, #ffffff 100%); */
-	height: 31cm;
-	min-height: 31cm;
 	border-right: solid #ccc 1px;
 }
 </style>

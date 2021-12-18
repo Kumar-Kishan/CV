@@ -1,18 +1,20 @@
 <template>
-	<div class="educations-wrapper pt-2 pb-2">
-		<div class="col-12 text-center fw-bold">
+	<div class="educations-wrapper">
+		<div class="fs-1 col-12 ms-4 mb-0">
 			Education
 		</div>
+		<hr style="margin-top: 0; margin-bottom: 0;" />
 		<div
 			class="education"
 			v-for="education in educations"
 			:key="education.specialization"
 		>
 			<p class="fs-6 ms-4 pt-1">
-				{{ education.specialization }}
+				{{ education.specialization }} ({{ education.timeframe.from }} -
+				{{ education.timeframe.to }})
 			</p>
 			<p class="fs-6 ms-4 fw-bold pt-1 pb-1">
-				{{ education.college }}
+				{{ education.college }} ({{ education.university }})
 			</p>
 		</div>
 	</div>

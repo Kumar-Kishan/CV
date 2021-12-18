@@ -1,7 +1,7 @@
 <template>
 	<div class="projects-info-wrapper">
 		<div class="row">
-			<p class="fs-1 fw-bold ms-4 me-4 text-capitalize">
+			<p class="fs-1 ms-4 me-4 text-capitalize">
 				Personal Projects
 			</p>
 			<hr class="ms-4" style="width: 92% !important; margin: 0;" />
