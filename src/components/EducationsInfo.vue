@@ -1,6 +1,6 @@
 <template>
 	<div class="educations-wrapper">
-		<div class="fs-1 col-12 ms-4 mb-0">
+		<div class="fs-1 col-12 ms-4 mb-0 text-center">
 			Education
 		</div>
 		<hr style="margin-top: 0; margin-bottom: 0;" />

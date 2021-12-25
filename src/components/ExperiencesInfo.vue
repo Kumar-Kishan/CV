@@ -1,7 +1,7 @@
 <template>
 	<div class="experiences-info-wrapper">
 		<div class="row">
-			<p class="fs-1 ms-4 me-4 text-capitalize">
+			<p class="fs-1 ms-4 me-4 text-capitalize text-center">
 				Work Experience
 			</p>
 			<hr style="width: 97.5%!important; margin: auto;" />
