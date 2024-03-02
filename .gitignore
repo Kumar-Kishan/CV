@@ -20,4 +20,10 @@ pnpm-debug.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw
+
+# lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
